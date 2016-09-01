@@ -17,15 +17,14 @@
 
 #h1 {
     text-align: center;
+    background-color: blue;
 }
 
 #h2 {
     background-color: #0066ff;
-}
-
-#h3 {
-    font-size: 36px;
-    text-align: center;
+    border: 2px solid black;
+    float: left;
+    width: 50%;
 }
 
 #h4 {
@@ -36,17 +35,22 @@
     height: 190px;
     clear: left;
     background-color:#0066ff ;
+    padding-bottom: 30px;
 }
 
 #img {
     padding-right: 100px;
     text-align: right;
+    width: 400px;
+    padding-bottom: 70px;
+    padding-top: 30px;
 }
 
 #img2 {
     text-align: right;
-    width: 500px;
-    padding-left: 90px;
+    width: 400px;
+    padding-left: 160px;
+    padding-bottom: 40px;
 }
 
 #h5 {
@@ -57,5 +61,9 @@
     height: 190px;
     clear: left;
     background-color: #0066ff;
+}
+
+#img3 {
+    padding-left: 150px;
 }
 
