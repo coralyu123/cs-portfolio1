@@ -8,7 +8,11 @@
     padding: 10px;
     font-size: 20px;
     border: 2px solid black;
-    background-color: white;
+    background-color: #bfbfbf;
+}
+
+#body {
+    background: #404040;
 }
 
 #h1 {
@@ -26,13 +30,32 @@
 
 #h4 {
     font-size: 24px;
+    float: right;
     border: 2px solid black;
-    padding-left: 50%;
-    
+    width: 50%;
+    height: 190px;
+    clear: left;
+    background-color:#0066ff ;
 }
 
 #img {
-    width: 400px;
-    height: 300px;
-    float: left;
+    padding-right: 100px;
+    text-align: right;
 }
+
+#img2 {
+    text-align: right;
+    width: 500px;
+    padding-left: 90px;
+}
+
+#h5 {
+    font-size: 24px;
+    float: right;
+    border: 2px solid black;
+    width: 50%;
+    height: 190px;
+    clear: left;
+    background-color: #0066ff;
+}
+
