@@ -11,22 +11,53 @@
     background-color: #bfbfbf;
 }
 
+#body {
+    background-color: gray;
+}
+
 #h1 {
     text-align: center;
     background-color: blue;
-}
-
-#img1 {
-    padding-right: 100px;
-    text-align: left;
-    width: 400px;
-    padding-bottom: 70px;
-    padding-top: 30px;
-    clear: right;
 }
 
 #h2 {
     float: right;
     width: 50%;
     border: dashed;
+}
+
+#h3 {
+    float: left;
+    width: 50%;
+    border: dashed;
+}
+
+#h4 {
+    float: right;
+    width: 50%;
+    border: dashed;
+}
+
+#h5 {
+    float: left;
+    width: 50%;
+    border: dashed;
+}
+
+#h6 {
+    float: right;
+    width: 50%;
+    border: dashed;
+}
+
+#img1 {
+    width: 400px;
+    padding-bottom: 70px;
+    padding-top: 30px;
+    padding-right: 150px;
+}
+
+#img2 {
+    width: 400px;
+    float: right;
 }
