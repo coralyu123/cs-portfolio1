@@ -51,13 +51,33 @@
 }
 
 #img1 {
-    width: 400px;
+    width: 300px;
     padding-bottom: 70px;
     padding-top: 30px;
     padding-right: 150px;
+    padding-left: 200px;
+    
 }
 
 #img2 {
     width: 400px;
-    float: right;
+    float: top;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    padding-left: 110px;
 }
+
+#img3 {
+    width: 300px;
+    padding-left: 200px;
+}
+
+#img4 {
+    width: 400px;
+    padding-left: 130px;
+}
+
+
+
+    
+    
