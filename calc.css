@@ -12,6 +12,27 @@
 }
 
 #body {
-    background-color: #bfbfbf;
+    background-image:url(http://image.shutterstock.com/z/stock-vector-mathematics-background-with-formulas-82500427.jpg);
+}
+
+#display {
+    font-size: 50px;
+}
+
+#answer {
+    font-size: 50px;
+}
+
+#box1 {
+    font-size: 30px;
+}
+
+#box2 {
+    font-size: 30px;
+}
+
+#h1 {
+    font-size: 50px;
+    font: bolder;
 }
 

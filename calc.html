@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="calc.css">
+	<link rel="stylesheet"  href="calc.css" type="text/css">
 	<title>Document</title>
 </head>
-<body>
+<body style="text-align:center;" id="body">
+ 
   <ul id="navbar">
         
         <li><a href="index.html"> About Me </a></li>
@@ -16,21 +17,24 @@
         <li><a href="#"> Big Project</a> </li>
         
  </ul>
+    <h1 id="h1"> Calculator </h1>
     
-<input type ="text" name="serif" style="width:50px;" id="input1">
-    <select id="dropdown">
+<input type ="text" name="serif" style="width:150px; height:50px;" id="box1">
+    <select id="sign" style="width:150px; height:30px;">
         <option value="+">+</option>
         <option value="-">-</option>
         <option value="x">x</option>
         <option value="/">/</option>
         <option value="^">^</option> 
-       <option value="nroot">nroot</option>
-    </select>
-    <input type ="text" name="input2" style="width:50px;" id="input2">
-    <input type="button" value="Calculate" id="submitButton" />
+        <option value="nroot">nroot</option>
+        <option value="%">modulus</option>
 
-    <p>The answer is: <span id="display"></span></p>
-    </div>
+    </select>
+    <input type ="text" name="serif" style="width:150px; height:50px;" id="box2">
+    <input type="button" value="Answer!" style="width:150px; height:30px;" id="Button" />
+
+    <p id="answer">Answer Here: <span id="display"></span></p>
+
 <script src="calc.js" ></script>
 
 </body> 
