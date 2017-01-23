@@ -46,4 +46,5 @@ function doMath() {
         display.innerHTML = answer;
     }
     
+    
 }
