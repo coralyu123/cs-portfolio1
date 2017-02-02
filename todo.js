@@ -5,7 +5,6 @@ var div = document.getElementById("div");
 var color = document.getElementById("color");
 
 
-
 button.addEventListener("click", function(){
     
     var task = "<div>"+box1.value+"<div>" + "<br>";

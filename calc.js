@@ -33,7 +33,7 @@ function doMath() {
     // ^ means the power to a number
     if (sign.value == "^"){
         answer = Math.pow(num1.value, num2.value);
-        display.innerHTML = answer;
+        display.innerHTML = answer;     
     }
     // nroot is basically square root
      if (sign.value == "nroot"){
