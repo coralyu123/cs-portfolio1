@@ -38,7 +38,7 @@ function doMath() {
     // nroot is basically square root
      if (sign.value == "nroot"){
         answer = Math.pow(num1.value, 1 / num2.value);
-        display.innerHTML = answer;     
+        display.innerHTML = answer;
      }
      //modulus finds the remainder of two numbers when divided
     if (sign.value == "%"){
